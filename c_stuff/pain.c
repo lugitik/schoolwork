@@ -1,3 +1,0 @@
-#include <stdio.h> 
-#include <math.h> 
-void sol(float va,float vb,float vc){float del;if((del=vb*vb-4*va*vc)>=0){float x1=((-vb + sqrt (del))/2*va);float x2 =((-vb-sqrt(del))/2*va);printf("\nX1 = %.2f\nX2 = %.2f\n",x1,x2);}else{printf("\nThere are no solutions.\n");}}int main(){float va,vb,vc;printf("\nInsert variable a: ");scanf("%f",&va);printf("Insert variable b: ");scanf("%f",&vb);printf("Insert variable c:");scanf("%f",&vc);sol (va,vb,vc);return 0;}
